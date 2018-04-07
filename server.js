@@ -63,7 +63,7 @@ app.get("/", function(req, res) {
 //Scraping Articles from Cracked
 app.get("/scrape", function(req, res) {
 
-  request("http://www.newyorktimes", function(error, response, html) {
+  request("http://www.Cracked.com", function(error, response, html) {
 
     var $ = cheerio.load(html);
 
